@@ -1,20 +1,19 @@
 **Only Chinese:**  
 | 设备名称 | 地区 | 设备代号 | 内核/作者/名称 | 系统 | Android | 打包方式 | KernelSU | SuSFS | LXC | Syscall Hook | KPM | Re:Kernel | 维护状态 |  
 |----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|  
-| 一加 8  | All | instantnoodle | 4.19/ppajda/XTD | All | 13 | AnyKernel3 | Magic | ✅ | ❌ | ❌ | ❌ | ❌ | Stable |  
+| 一加 8  | All | instantnoodle | 4.19/ppajda/XTD | All | 13 | AnyKernel3 | Magic | ✅ | ❌ | ❌ | ❌ | ❌ | Suspend |  
 | 一加 8  | All | instantnoodle | 4.19/Nameless/Nameless | Nameless 15 | 15 | AnyKernel3 | rsuntk | ✅ | ❌ | ❌ | ❌ | ❌ | Stable |  
 | 一加 8  | All | instantnoodle | 4.19/Rohail33/Realking | OxygenOS/ColorOS 13.1 | 13 | AnyKernel3 | SukiSU(U) | ✅ | ❌ | ❌ | ❌ | ✅ | Suspend |  
 | 小米 Mix2s  | All | polaris | 4.9/Evolution-X-Devices/sdm845 | Evolution X 10.X | 15 | AnyKernel3 | SukiSU(U) | ✅ | ❌ | ❌ | ✅ | ✅ | Stable |  
 | 红米 K20 Pro  | All | raphael | 4.14/SOVIET-ANDROID/SOVIET-STAR-OSS | Based-AOSP | 15 | AnyKernel3 | rsuntk | ✅ | ❌ | ✅ | ❌ | ❌ | Stable |  
 | 红米 Note 4X  | All | mido | 4.9/RaidenShogunSeggs/(Nothing) | Based-AOSP | 13 | AnyKernel3 | Next | ✅ | ❌ | ❌ | ❌ | ❌ | Suspend |  
-| 黑鲨 4 | All | penrose | 4.19/DtHnAme/(Nothing) | MIUI/JoyUI 12 | 11 | AnyKernel3 | rsuntk | ❌ | ❌ | ❌ | ❌ | ❌ | Stable |  
+| 黑鲨 4 | All | penrose | 4.19/DtHnAme/(Nothing) | MIUI/JoyUI 12 | 11 | AnyKernel3 | rsuntk | ✅ | ❌ | ❌ | ❌ | ❌ | Stable |  
 | 小米 10S | All | thyme | 4.19/TIMISONG-dev/MagicTime | Based-AOSP | 15 | AnyKernel3 | rsuntk | ✅ | ❌ | ❌ | ❌ | ❌ | Stable |  
 | 中兴 儿童手机3 | JP | a201zt | 4.19/官方内核 | 未知 | Null | AnyKernel3 | Next | ❌ | ❌ | ❌ | ❌ | ❌ | Suspend |  
 | 三星 S20 5G | All | x1q | 4.19/官方内核 | OneUI 5.1/6.1 | 13/14 | Boot Image | rsuntk | ❌ | ❌ | ❌ | ❌ | ❌ | Stable |  
 | 红米 Note 7 | All | lavender | 4.4/Stormbreaker/Predator | MIUI 12 | 10 | Boot Image | rsuntk | ❌ | ❌ | ❌ | ❌ | ❌ | Suspend |  
 | 小米 5 | All | gemini | 4.4/crdroidandroid/crdroid | Crdroid 9 | 13 | Anykernel3 | rsuntk | ❌ | ❌ | ❌ | ❌ | ❌ | Suspend |  
 | 谷歌 Pixel 9 Series | All | zumapro | 6.1/kerneltoast/Sultan | Pixel | 15 | Anykernel3 | SukiSU | ✅ | ❌ | ❌ | ❌ | ❌ | Suspend |  
-| 小米 11 (Ultra) | All | star | 5.4/EndCredits/Acetaminophen | HyperOS | 14 | Anykernel3 | rsuntk | ✅ | ❌ | ❌ | ❌ | ❌ | Suspend |  
 | 小米平板 4(Plus) | All | clover | 4.19/pix106/SouthWest | LineageOS 22.1 | 15 | AnyKernel3 | SukiSU(U) | ✅ | ❌ | ❌ | ✅ | ❌ | Stable |  
 | OPPO K9 Pro | CN | PEYM00 | 4.19/nishant6342/(Nothing) | ColorOS 13.1 | 13 | AnyKernel3 | Magic | ❌ | ❌ | ❌ | ❌ | ❌ | Suspend |  
 | LG Nexus 5 | All | hammerhead | 3.4/nacroreiser/LineageOS | LineageOS 22.2 | 15 | AnyKernel3 | SukiSU(U) | ❌ | ❌ | ✅ | ❌ | ❌ | Suspend |  
@@ -36,6 +35,9 @@
 | Realme 6 | All | RMX2001 | 4.14/AbzRaider/LineageOS-Plus | All | 14 | AnyKernel3 | rsuntk | ❌ | ❌ | ❌ | ❌ | ❌ | Suspend |  
 | Huawei P10 | All | hi3660 | 4.9/maimaiguanfan/Pangu | EMUI | 9 | AnyKernel3 | rsuntk | ❌ | ❌ | ❌ | ❌ | ❌ | Suspend |  
 | Honor Hi3660 | All | hi3660 | 4.9/maimaiguanfan/Pangu | EMUI | 9 | AnyKernel3 | rsuntk | ❌ | ❌ | ❌ | ❌ | ❌ | Suspend |  
+| 小米 9  | All | cepheus | 4.14/TheVoyager0777/VK-VI-MIUI | MIUI 12 | 11 | AnyKernel3 | rsuntk | ❌ | ❌ | ❌ | ❌ | ❌ | Suspend |  
+| 红米 K20 Pro  | CN | raphael | 4.14/weixiaoEK/Marisa-mod | MIUI 12 | 11 | Boot Image | rsuntk | ❌ | ❌ | ❌ | ❌ | ❌ | Suspend |  
+| 红米 K20 Pro  | CN | raphael | 4.14/RuRuTiaSaMa/(Nothing) | MIUI 12 | 11 | Boot Image | rsuntk | ❌ | ❌ | ❌ | ❌ | ❌ | Suspend |  
 
 特别说明：
   - 我们提供的KernelSU分支包括：[Next(❌)](https://github.com/KernelSU-Next/KernelSU-Next)、[Magic](https://github.com/backslashxx/KernelSU)、[rsuntk](https://github.com/rsuntk/KernelSU)、[lightsummer233](https://github.com/lightsummer233/KernelSU)、[酷友二创-SukiSU-Ultra](https://github.com/ShirkNeko/SukiSU-Ultra)、[SukiSU](https://github.com/ShirkNeko/KernelSU)
@@ -48,7 +50,7 @@
   - LineageOS 内核 通常需要在repo完整源代码的环境下编译，否则可能会导致无法开机，但若是能够正常编译并开机的我们仍会考虑维护，~~因此我们不会考虑官方维护LineageOS内核~~
   - 一加8 OxygenOS/ColorOS 13.1 经测试8、8t、8Pro、9r都可用，且该内核类原生设备同样可用（但会有某些Bugs）
   - 红米 Note 4X 通常仅**高通**可用，联发科设备不支持
-  - 黑鲨4 因机型内核缺陷（缺少ANDROID_KABI）无法修补SuSFS，为了提高隐藏性和安全性，因此是首款将常规手动Hook切换至[Syscall Hook](https://github.com/backslashxx/KernelSU/issues/5)的设备
+  - 黑鲨4 因机型内核缺陷（缺少ANDROID_KABI）~~无法修补SuSFS~~，为了提高隐藏性和安全性，因此是首款将常规手动Hook切换至[Syscall Hook](https://github.com/backslashxx/KernelSU/issues/5)的设备
   - 一加8 Nameless 15 ~~存在WiFi失效的问题，请谨慎刷入~~我们更换defconfig文件后解决该问题，但目前仍在测试阶段
   - 中兴 Z201ZT 由于源代码并非Git方式获得，因此修改了yml文件中对应的获取方式，由于存在较多未知信息，因此该内核仅研究学习使用，若有需要可自行Fork编译
   - 三星 S20 5G 仅支持**高通版本**，猎户座版本请勿尝试
@@ -57,6 +59,7 @@
   - 小米 11 Ultra 没有进行normal patch，仅仅执行backport patch，因此应该可以在KSU管理器中切换kprobe和模拟手动修补，以及SUS SU应该也能正常工作
   - 小米平板 4(Plus) 基于SukiSU Ultra的KPM功能**未经完整测试**（会显示在管理器中，但未刷入内核模块进行测试）
   - 小米 Mix2s 已移植Cgroup V2，但Cgroup Freezer需要依赖系统额外步骤才能使用且该功能实际执行冻结过程异常，建议使用Cgroup UID
+  - ~~小米 Mix2s 已使用 Tracepoint Hook~~
   - 红米 K40 Gaming 内核与 Poco F3 GT 通用
   - 红米 8 内核与 红米 8a 通用；理论上LineageOS系的系统，只要是4.19内核都通用 (无论是安卓几)
   - 红米 Note 10 Pro 内核与 Poco X3 GT 通用

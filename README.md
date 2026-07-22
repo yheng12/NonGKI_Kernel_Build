@@ -2,7 +2,10 @@
 ![GitHub branch check runs](https://img.shields.io/github/check-runs/JackA1ltman/NonGKI_Kernel_Build/main)![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/JackA1ltman/NonGKI_Kernel_Build/latest/total)  
 [支持列表](Supported_Devices.md) | 中文文档 | [English](README_EN.md) | [更新日志](Updated.md)  
 
-**Ver**.1.6 Final
+**Ver**.1.6 Final LTS  
+> [!IMPORTANT]
+> v1 版本项目将会进入长期维护模式，也就意味着未来将不会提供功能增强，仅维护当前编译结果  
+> v2 版本将会正式投入使用：[NonGKI_Kernel_Build_2nd](https://github.com/JackA1ltman/NonGKI_Kernel_Build_2nd)
 
 **Non-GKI**：我们常说的Non-GKI包括了GKI1.0（内核版本4.19-5.4）（5.4为QGKI）和真正Non-GKI（内核版本≤4.14）  
 
@@ -76,6 +79,7 @@ Github放弃了Ubuntu 20.04，若你有需求，或者使用Clang Proton，请�
   - **HOOK_METHOD** - 我们提供了两种方式用于KernelSU手动修补：
     - **normal**代表最常见的修补方式，一般不会出问题，仅适合内核版本≥3.18（ARM64）设备
     - [syscall](https://github.com/backslashxx/KernelSU/issues/5)是最新的最小化修补方式，似乎会提高隐藏，但是在低版本clang下可能会有ISO编译规范问题，目前已经支持包括3.4版本内核为最低版本的所有内核，对于**内核版本≤4.9**的内核，会自动执行针对kernel_write和kernel_read的修补补丁，但可能存在需要二次修补的情况，更高版本内核则不需要考虑这个事情
+    - **tracepoint**是由SukiSU-Ultra作者ShirkNeko基于Syscall Hook 1.4版本制作而成，进一步将修补更小化，目前已确认支持5.4-3.18之间的内核版本，但注意，目前**仅支持SukiSU-Ultra**
   - **HOOK_OLDER** - 若你需要syscall补丁，但你的设备或KernelSU不支持最新版本的syscall则可以启用
   - **PROFILE_NAME** - 填写成你修改好的env环境变量文件的名称，例如codename_rom_template.env
   - **KERNELSU_SUS_PATCH** - 如果你的KernelSU不属于KernelSU-Next，并且也没有针对SuSFS的修补分支，可以启用该项目（true），但我们不建议这么做，因为分支KernelSU的魔改情况严重，手动修补已经不能顺应现在的时代了
